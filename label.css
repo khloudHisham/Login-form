@@ -1,10 +1,16 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+.responsive_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+}
 body{ margin:0;
     padding:0;
     font-family:sans-serif;
-    background-image:url('sora.jpg');
+    /*background-image:url('sora.jpg');
     background-repeat: no-repeat;
-    background-size: cover }
+    background-size: cover */}
      .login-box{width: 280px;
            position:absolute;
             top:50%;left:50% ;
